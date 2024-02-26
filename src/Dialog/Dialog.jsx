@@ -1,14 +1,6 @@
-import * as React from 'react';
+// Dialog.jsx
 import Dialog from '@mui/material/Dialog';
-
-export const Dialog = () => {
-  return (
-    <div>
-      {/* Your dialog content here */}
-      <Dialog open={true}>Hello, World!</Dialog>
-    </div>
-  );
-};
+import * as React from 'react';
 
 export default {
   title: 'Design System/Dialog',
