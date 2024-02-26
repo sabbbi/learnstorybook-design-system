@@ -17,7 +17,7 @@ function ButtonWrapper(props) {
 }
 
 export default {
-  title: 'Design System/Button',
+  title: 'Design System/ButtonCopy',
   component: Button,
 };
 
