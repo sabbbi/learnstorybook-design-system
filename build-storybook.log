@@ -1,72 +1,111 @@
 yarn run v1.22.19
-$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229
+$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17670-l660amqnOipQ
 @storybook/cli v7.6.16
 
-info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229
+info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17670-l660amqnOipQ
 info => Loading presets
 info => Building manager..
-info => Manager built (87 ms)
+info => Manager built (85 ms)
 info => Building preview..
-info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229/sb-common-assets
+info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17670-l660amqnOipQ/sb-common-assets
 vite v4.5.2 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
 transforming...
-✓ 88 modules transformed.
-✓ built in 1.45s
-[storybook:react-docgen-plugin] /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.jsx: Identifier 'Dialog' has already been declared. (12:7)
-
-  10 | import ListItemText from '@mui/material/ListItemText';
-  11 | import DialogTitle from '@mui/material/DialogTitle';
-> 12 | import Dialog from '@mui/material/Dialog';
-     |        ^
-  13 | import PersonIcon from '@mui/icons-material/Person';
-  14 | import AddIcon from '@mui/icons-material/Add';
-  15 | import Typography from '@mui/material/Typography';
-file: /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.jsx:12:7
+node_modules/@mui/material/Dialog/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/index.js" was ignored.
+node_modules/@mui/material/Dialog/Dialog.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/Dialog.js" was ignored.
+node_modules/@mui/material/Fade/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/index.js" was ignored.
+node_modules/@mui/material/Paper/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/index.js" was ignored.
+node_modules/@mui/material/Modal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/index.js" was ignored.
+node_modules/@mui/material/styles/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useThemeProps.js" was ignored.
+node_modules/@mui/material/styles/styled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/styled.js" was ignored.
+node_modules/@mui/material/Backdrop/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/index.js" was ignored.
+node_modules/@mui/material/styles/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useTheme.js" was ignored.
+node_modules/@mui/utils/useId/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useId/useId.js" was ignored.
+node_modules/@mui/material/Fade/Fade.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/Fade.js" was ignored.
+node_modules/@mui/material/Paper/Paper.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/Paper.js" was ignored.
+node_modules/@mui/base/unstable_useModal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/index.js" was ignored.
+node_modules/@mui/material/Modal/Modal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/Modal.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
+node_modules/@mui/material/styles/defaultTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/defaultTheme.js" was ignored.
+node_modules/@mui/material/Backdrop/Backdrop.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/Backdrop.js" was ignored.
+node_modules/@mui/material/utils/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useForkRef.js" was ignored.
+node_modules/@mui/base/unstable_useModal/useModal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/useModal.js" was ignored.
+node_modules/@mui/base/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/index.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
+node_modules/@mui/styled-engine/index.js (8:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/index.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/index.js" was ignored.
+node_modules/@mui/system/esm/createBox.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox.js" was ignored.
+node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
+node_modules/@mui/system/esm/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme.js" was ignored.
+node_modules/@mui/system/esm/useThemeWithoutDefault.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/index.js" was ignored.
+node_modules/@mui/system/esm/Container/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/index.js" was ignored.
+node_modules/@mui/system/esm/Unstable_Grid/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/index.js" was ignored.
+node_modules/@mui/system/esm/Stack/Stack.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/Stack.js" was ignored.
+node_modules/@mui/system/esm/Stack/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/index.js" was ignored.
+node_modules/@mui/system/esm/Unstable_Grid/Grid.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/Grid.js" was ignored.
+node_modules/@mui/base/utils/ClassNameConfigurator.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/ClassNameConfigurator.js" was ignored.
+node_modules/@mui/base/utils/useRootElementName.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useRootElementName.js" was ignored.
+node_modules/@mui/base/utils/useSlotProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useSlotProps.js" was ignored.
+node_modules/@mui/base/Portal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/index.js" was ignored.
+node_modules/@mui/styled-engine/StyledEngineProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/index.js" was ignored.
+node_modules/@mui/styled-engine/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/index.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/Box/Box.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
+node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
+node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
+node_modules/@mui/system/esm/Container/Container.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
+node_modules/@mui/utils/useForkRef/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useForkRef/useForkRef.js" was ignored.
+node_modules/@mui/base/FocusTrap/FocusTrap.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/FocusTrap/FocusTrap.js" was ignored.
+node_modules/@mui/base/Portal/Portal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/Portal.js" was ignored.
+node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js" was ignored.
+node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js" was ignored.
+node_modules/@mui/utils/useControlled/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useControlled/useControlled.js" was ignored.
+node_modules/@mui/utils/useEventCallback/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEventCallback/useEventCallback.js" was ignored.
+node_modules/@mui/utils/useLazyRef/useLazyRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useLazyRef/useLazyRef.js" was ignored.
+node_modules/@mui/utils/useTimeout/useTimeout.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useTimeout/useTimeout.js" was ignored.
+node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js" was ignored.
+node_modules/@mui/utils/useOnMount/useOnMount.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useOnMount/useOnMount.js" was ignored.
+node_modules/@mui/utils/usePreviousProps/usePreviousProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/usePreviousProps/usePreviousProps.js" was ignored.
+src/Dialog/Dialog.stories.jsx (6:9) Error when using sourcemap for reporting an error: Can't resolve original location of error.
+✓ 916 modules transformed.
+✓ built in 2.83s
+"Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
+file: /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.stories.jsx:6:9
+4:   return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g...
+5: }
+6: import { Dialog } from "./Dialog";
+            ^
+7: import { StoryLinkWrapper } from "../LinkWrapper";
+8: const CustomDialog = /* @__PURE__ */_styled("dialog", "production" === "production" ? {
 => Failed to build the preview
-SyntaxError: ./src/Dialog/Dialog.jsx: Identifier 'Dialog' has already been declared. (12:7)
-
-  10 | import ListItemText from '@mui/material/ListItemText';
-  11 | import DialogTitle from '@mui/material/DialogTitle';
-> 12 | import Dialog from '@mui/material/Dialog';
-     |        ^
-  13 | import PersonIcon from '@mui/icons-material/Person';
-  14 | import AddIcon from '@mui/icons-material/Add';
-  15 | import Typography from '@mui/material/Typography';
-    at constructor (./node_modules/@babel/parser/lib/index.js:353:19)
-    at JSXParserMixin.raise (./node_modules/@babel/parser/lib/index.js:3277:19)
-    at ScopeHandler.checkRedeclarationInScope (./node_modules/@babel/parser/lib/index.js:1491:19)
-    at ScopeHandler.declareName (./node_modules/@babel/parser/lib/index.js:1457:12)
-    at JSXParserMixin.declareNameFromIdentifier (./node_modules/@babel/parser/lib/index.js:7348:16)
-    at JSXParserMixin.checkIdentifier (./node_modules/@babel/parser/lib/index.js:7344:12)
-    at JSXParserMixin.checkLVal (./node_modules/@babel/parser/lib/index.js:7290:12)
-    at JSXParserMixin.finishImportSpecifier (./node_modules/@babel/parser/lib/index.js:13707:10)
-    at JSXParserMixin.parseImportSpecifierLocal (./node_modules/@babel/parser/lib/index.js:13704:31)
-    at JSXParserMixin.maybeParseDefaultImportSpecifier (./node_modules/@babel/parser/lib/index.js:13818:12)
-    at JSXParserMixin.parseImportSpecifiersAndAfter (./node_modules/@babel/parser/lib/index.js:13681:29)
-    at JSXParserMixin.parseImport (./node_modules/@babel/parser/lib/index.js:13677:17)
-    at JSXParserMixin.parseStatementContent (./node_modules/@babel/parser/lib/index.js:12337:27)
-    at JSXParserMixin.parseStatementLike (./node_modules/@babel/parser/lib/index.js:12229:17)
-    at JSXParserMixin.parseModuleItem (./node_modules/@babel/parser/lib/index.js:12206:17)
-    at JSXParserMixin.parseBlockOrModuleBlockBody (./node_modules/@babel/parser/lib/index.js:12786:36)
-    at JSXParserMixin.parseBlockBody (./node_modules/@babel/parser/lib/index.js:12779:10)
-    at JSXParserMixin.parseProgram (./node_modules/@babel/parser/lib/index.js:12106:10)
-    at JSXParserMixin.parseTopLevel (./node_modules/@babel/parser/lib/index.js:12096:25)
-    at JSXParserMixin.parse (./node_modules/@babel/parser/lib/index.js:13895:10)
-    at parse (./node_modules/@babel/parser/lib/index.js:13916:26)
-    at parser (./node_modules/@babel/core/lib/parser/index.js:41:34)
-    at parser.next (<anonymous>)
-    at parse (./node_modules/@babel/core/lib/parse.js:25:37)
-    at parse.next (<anonymous>)
-    at evaluateSync (./node_modules/gensync/index.js:251:28)
-    at sync (./node_modules/gensync/index.js:89:14)
-    at stopHiding - secret - don't use this - v1 (./node_modules/@babel/core/lib/errors/rewrite-stack-trace.js:47:12)
-    at parseSync (./node_modules/@babel/core/lib/parse.js:40:72)
-    at babelParser (./node_modules/react-docgen/dist/babelParser.js:78:41)
-    at parse (./node_modules/react-docgen/dist/parse.js:51:46)
-    at defaultParse (./node_modules/react-docgen/dist/main.js:55:35)
-    at Object.transform (./node_modules/@storybook/react-vite/dist/preset.js:1:2727)
-    at file://./node_modules/rollup/dist/es/shared/node-entry.js:25544:40
+RollupError: "Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
+    at error (file://./node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
+    at Module.error (file://./node_modules/rollup/dist/es/shared/node-entry.js:13745:16)
+    at Module.traceVariable (file://./node_modules/rollup/dist/es/shared/node-entry.js:14175:29)
+    at ModuleScope.findVariable (file://./node_modules/rollup/dist/es/shared/node-entry.js:12615:39)
+    at Identifier.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:8319:40)
+    at Property.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5892:23)
+    at ObjectExpression.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
+    at ExportDefaultDeclaration.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5892:23)
+    at Program.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
+    at Module.bindReferences (file://./node_modules/rollup/dist/es/shared/node-entry.js:13741:18)
+    at Graph.sortModules (file://./node_modules/rollup/dist/es/shared/node-entry.js:25853:20)
+    at Graph.build (file://./node_modules/rollup/dist/es/shared/node-entry.js:25737:14)
+    at async file://./node_modules/rollup/dist/es/shared/node-entry.js:26706:13
+    at async catchUnfinishedHookActions (file://./node_modules/rollup/dist/es/shared/node-entry.js:25910:16)
+    at async rollupInternal (file://./node_modules/rollup/dist/es/shared/node-entry.js:26701:5)
+    at async build (file://./node_modules/vite/dist/node/chunks/dep-52909643.js:48079:18)
+    at async build (./node_modules/@storybook/builder-vite/dist/index.js:159:11314)
+    at async Promise.all (index 0)
+    at async Module.build2 (./node_modules/@storybook/builder-vite/dist/index.js:159:13633)
+    at async Promise.all (index 0)
+    at async buildStaticStandalone (./node_modules/@storybook/core-server/dist/index.js:61:2295)
+    at async withTelemetry (./node_modules/@storybook/core-server/dist/index.js:65:3948)
+    at async build (./node_modules/@storybook/cli/dist/generate.js:514:1059)
+    at async Command.<anonymous> (./node_modules/@storybook/cli/dist/generate.js:530:125)
 error Command failed with exit code 1.
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
