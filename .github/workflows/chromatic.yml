@@ -25,4 +25,6 @@ jobs:
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/design-systems-for-developers/react/en/review/ to obtain it
           projectToken: ${{ secrets.chpt_92930f5b513e163 }}
-          token: ${{ secrets.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 }}
+          token: ${{ secrets.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 }}
+
+          # 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
