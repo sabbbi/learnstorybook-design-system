@@ -1,8 +1,9 @@
 // Dialog.jsx
-import Dialog from '@mui/material/Dialog';
 import * as React from 'react';
 
-export default {
-  title: 'Design System/Dialog',
-  component: Dialog,
+const Dialog = () => {
+  // Your component logic here
+  return <div>{/* Your dialog content here */}</div>;
 };
+
+export default Dialog;
