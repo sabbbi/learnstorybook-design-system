@@ -1,19 +1,19 @@
 yarn run v1.22.19
-$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17063-9OlLaqyfEkCQ
+$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229
 @storybook/cli v7.6.16
 
-info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17063-9OlLaqyfEkCQ
+info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229
 info => Loading presets
 info => Building manager..
-info => Manager built (88 ms)
+info => Manager built (87 ms)
 info => Building preview..
-info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17063-9OlLaqyfEkCQ/sb-common-assets
+info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--17251-h5LwsBl35229/sb-common-assets
 vite v4.5.2 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
 transforming...
-✓ 122 modules transformed.
-✓ built in 1.56s
+✓ 88 modules transformed.
+✓ built in 1.45s
 [storybook:react-docgen-plugin] /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.jsx: Identifier 'Dialog' has already been declared. (12:7)
 
   10 | import ListItemText from '@mui/material/ListItemText';
