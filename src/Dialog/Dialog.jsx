@@ -17,6 +17,59 @@ import DialogActions from '@mui/material/DialogActions';
 // or
 import { DialogActions } from '@mui/material';
 
+export const Dialog = forwardRef(function Dialog(
+  {
+    isDisabled,
+    isLoading,
+    loadingText,
+    isLink,
+    children,
+    ButtonWrapper,
+    ...props
+  },
+  ref,
+) {
+  if (ButtonWrapper) {
+    return (
+      <StyledButton
+        as={ButtonWrapper}
+        disabled={isDisabled}
+        isLoading={isLoading}
+        {...props}
+        ref={ref}
+      >
+        <>
+          <Text>{children}</Text>
+          {isLoading && <Loading>{loadingText || 'Loading...'}</Loading>}
+        </>
+      </StyledButton>
+    );
+  }
+  if (isLink) {
+    return (
+      <StyledButton as={ButtonLink} isLoading={isLoading} {...props} ref={ref}>
+        <>
+          <Text>{children}</Text>
+          {isLoading && <Loading>{loadingText || 'Loading...'}</Loading>}
+        </>
+      </StyledButton>
+    );
+  }
+  return (
+    <StyledButton
+      disabled={isDisabled}
+      isLoading={isLoading}
+      {...props}
+      ref={ref}
+    >
+      <>
+        <Text>{children}</Text>
+        {isLoading && <Loading>{loadingText || 'Loading...'}</Loading>}
+      </>
+    </StyledButton>
+  );
+});
+
 export default {
   title: 'Design System/Dialog',
   component: Dialog,
