@@ -1,13 +1,13 @@
 yarn run v1.22.19
-$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18029-RRZpcrFLVw0e
+$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18247-dibUdLQLRynV
 @storybook/cli v7.6.16
 
-info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18029-RRZpcrFLVw0e
+info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18247-dibUdLQLRynV
 info => Loading presets
 info => Building manager..
-info => Manager built (90 ms)
+info => Manager built (82 ms)
 info => Building preview..
-info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18029-RRZpcrFLVw0e/sb-common-assets
+info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18247-dibUdLQLRynV/sb-common-assets
 vite v4.5.2 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
@@ -15,28 +15,28 @@ transforming...
 node_modules/@mui/material/Dialog/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/index.js" was ignored.
 node_modules/@mui/material/Dialog/Dialog.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/Dialog.js" was ignored.
 node_modules/@mui/material/Modal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/index.js" was ignored.
-node_modules/@mui/material/Paper/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/index.js" was ignored.
 node_modules/@mui/material/Fade/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/index.js" was ignored.
-node_modules/@mui/material/styles/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useThemeProps.js" was ignored.
+node_modules/@mui/material/Paper/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/index.js" was ignored.
 node_modules/@mui/material/styles/styled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/styled.js" was ignored.
+node_modules/@mui/material/styles/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useThemeProps.js" was ignored.
 node_modules/@mui/material/Backdrop/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/index.js" was ignored.
 node_modules/@mui/material/styles/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useTheme.js" was ignored.
 node_modules/@mui/utils/useId/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useId/useId.js" was ignored.
-node_modules/@mui/material/Modal/Modal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/Modal.js" was ignored.
-node_modules/@mui/material/Paper/Paper.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/Paper.js" was ignored.
 node_modules/@mui/base/unstable_useModal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/index.js" was ignored.
+node_modules/@mui/material/Modal/Modal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/Modal.js" was ignored.
 node_modules/@mui/material/Fade/Fade.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/Fade.js" was ignored.
-node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
+node_modules/@mui/material/Paper/Paper.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/Paper.js" was ignored.
 node_modules/@mui/material/styles/defaultTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/defaultTheme.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
 node_modules/@mui/material/Backdrop/Backdrop.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/Backdrop.js" was ignored.
-node_modules/@mui/base/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/index.js" was ignored.
 node_modules/@mui/base/unstable_useModal/useModal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/useModal.js" was ignored.
-node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
+node_modules/@mui/base/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/index.js" was ignored.
 node_modules/@mui/material/utils/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useForkRef.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
 node_modules/@mui/styled-engine/index.js (8:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/index.js" was ignored.
 node_modules/@mui/system/esm/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/index.js" was ignored.
-node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
 node_modules/@mui/system/esm/createBox.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox.js" was ignored.
+node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
 node_modules/@mui/system/esm/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme.js" was ignored.
 node_modules/@mui/system/esm/useThemeWithoutDefault.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault.js" was ignored.
 node_modules/@mui/system/esm/ThemeProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/index.js" was ignored.
@@ -51,36 +51,36 @@ node_modules/@mui/base/utils/useSlotProps.js (1:0) Module level directives cause
 node_modules/@mui/base/Portal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/index.js" was ignored.
 node_modules/@mui/styled-engine/StyledEngineProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/index.js" was ignored.
 node_modules/@mui/styled-engine/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/index.js" was ignored.
-node_modules/@mui/system/esm/Box/Box.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
 node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/system/esm/Box/Box.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
 node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js" was ignored.
 node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
 node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
 node_modules/@mui/system/esm/Container/Container.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
-node_modules/@mui/base/FocusTrap/FocusTrap.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/FocusTrap/FocusTrap.js" was ignored.
 node_modules/@mui/base/Portal/Portal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/Portal.js" was ignored.
+node_modules/@mui/base/FocusTrap/FocusTrap.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/FocusTrap/FocusTrap.js" was ignored.
 node_modules/@mui/utils/useForkRef/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useForkRef/useForkRef.js" was ignored.
 node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js" was ignored.
 node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js" was ignored.
 node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js" was ignored.
-node_modules/@mui/utils/useControlled/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useControlled/useControlled.js" was ignored.
 node_modules/@mui/utils/useEventCallback/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEventCallback/useEventCallback.js" was ignored.
+node_modules/@mui/utils/useControlled/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useControlled/useControlled.js" was ignored.
 node_modules/@mui/utils/useLazyRef/useLazyRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useLazyRef/useLazyRef.js" was ignored.
 node_modules/@mui/utils/useTimeout/useTimeout.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useTimeout/useTimeout.js" was ignored.
 node_modules/@mui/utils/useOnMount/useOnMount.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useOnMount/useOnMount.js" was ignored.
 node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js" was ignored.
 node_modules/@mui/utils/usePreviousProps/usePreviousProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/usePreviousProps/usePreviousProps.js" was ignored.
-src/Dialog/Dialog.stories.jsx (3:9) Error when using sourcemap for reporting an error: Can't resolve original location of error.
+src/Dialog/Dialog.stories.jsx (4:9) Error when using sourcemap for reporting an error: Can't resolve original location of error.
 ✓ 916 modules transformed.
 ✓ built in 2.80s
 "Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
-file: /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.stories.jsx:3:9
-1: import { jsx } from "@emotion/react/jsx-runtime";
+file: /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.stories.jsx:4:9
 2: import styled from "@emotion/styled";
-3: import { Dialog } from "./Dialog";
+3: import React from "react";
+4: import { Dialog } from "./Dialog";
             ^
-4: import { StoryLinkWrapper } from "../LinkWrapper";
-5: function DialogWrapper(props) {
+5: export default {
+6:   title: "Components/Dialog",
 => Failed to build the preview
 RollupError: "Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
     at error (file://./node_modules/rollup/dist/es/shared/node-entry.js:2287:30)

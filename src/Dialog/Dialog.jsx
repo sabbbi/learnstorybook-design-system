@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Dialog from '@mui/material/Dialog';
 
-export const DialogComponent = () => {
+export const Dialog = () => {
   return (
     <div>
       {/* Your dialog content here */}
@@ -12,5 +12,5 @@ export const DialogComponent = () => {
 
 export default {
   title: 'Design System/Dialog',
-  component: DialogComponent,
+  component: Dialog,
 };
