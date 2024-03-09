@@ -6,4 +6,7 @@ const Card = () => {
   return <div>{}</div>;
 };
 
-export default Card;
+export default {
+  title: 'Design System/Card',
+  component: Card,
+};
