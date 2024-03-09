@@ -1,111 +1,199 @@
 yarn run v1.22.19
-$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18594-Zc1It3RYLwjL
+$ storybook build --output-dir /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh
 @storybook/cli v7.6.16
 
-info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18594-Zc1It3RYLwjL
+info => Cleaning outputDir: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh
 info => Loading presets
 info => Building manager..
-info => Manager built (75 ms)
+info => Manager built (76 ms)
 info => Building preview..
-info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--18594-Zc1It3RYLwjL/sb-common-assets
+info => Copying static files: /Users/persoonlijk/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/sb-common-assets
 vite v4.5.2 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
 transforming...
+node_modules/@mui/material/Card/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Card/index.js" was ignored.
+node_modules/@mui/material/CardHeader/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/CardHeader/index.js" was ignored.
+node_modules/@mui/material/CardContent/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/CardContent/index.js" was ignored.
+node_modules/@mui/material/Typography/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Typography/index.js" was ignored.
+node_modules/@mui/material/Button/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Button/index.js" was ignored.
+node_modules/@mui/material/Avatar/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Avatar/index.js" was ignored.
+node_modules/@mui/material/List/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/List/index.js" was ignored.
+node_modules/@mui/material/ListItem/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItem/index.js" was ignored.
+node_modules/@mui/material/ListItemAvatar/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemAvatar/index.js" was ignored.
+node_modules/@mui/material/ListItemButton/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemButton/index.js" was ignored.
+node_modules/@mui/material/ListItemText/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemText/index.js" was ignored.
+node_modules/@mui/material/DialogTitle/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/DialogTitle/index.js" was ignored.
 node_modules/@mui/material/Dialog/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/index.js" was ignored.
+node_modules/@mui/material/CardHeader/CardHeader.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/CardHeader/CardHeader.js" was ignored.
+node_modules/@mui/material/Card/Card.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Card/Card.js" was ignored.
+node_modules/@mui/material/CardContent/CardContent.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/CardContent/CardContent.js" was ignored.
+node_modules/@mui/material/Typography/Typography.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Typography/Typography.js" was ignored.
+node_modules/@mui/material/Button/Button.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Button/Button.js" was ignored.
+node_modules/@mui/material/Avatar/Avatar.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Avatar/Avatar.js" was ignored.
+node_modules/@mui/material/ListItem/ListItem.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItem/ListItem.js" was ignored.
+node_modules/@mui/material/List/List.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/List/List.js" was ignored.
+node_modules/@mui/material/ListItemAvatar/ListItemAvatar.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemAvatar/ListItemAvatar.js" was ignored.
+node_modules/@mui/material/ListItemButton/ListItemButton.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemButton/ListItemButton.js" was ignored.
+node_modules/@mui/material/ListItemText/ListItemText.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemText/ListItemText.js" was ignored.
+node_modules/@mui/material/DialogTitle/DialogTitle.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/DialogTitle/DialogTitle.js" was ignored.
 node_modules/@mui/material/Dialog/Dialog.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Dialog/Dialog.js" was ignored.
-node_modules/@mui/material/Modal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/index.js" was ignored.
-node_modules/@mui/material/Paper/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/index.js" was ignored.
-node_modules/@mui/material/Fade/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/index.js" was ignored.
 node_modules/@mui/material/styles/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useThemeProps.js" was ignored.
 node_modules/@mui/material/styles/styled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/styled.js" was ignored.
-node_modules/@mui/material/styles/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useTheme.js" was ignored.
+node_modules/@mui/material/Paper/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/index.js" was ignored.
+node_modules/@mui/material/ButtonBase/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ButtonBase/index.js" was ignored.
+node_modules/@mui/material/internal/svg-icons/Person.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/internal/svg-icons/Person.js" was ignored.
+node_modules/@mui/base/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/index.js" was ignored.
+node_modules/@mui/material/utils/useSlot.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useSlot.js" was ignored.
+node_modules/@mui/material/utils/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useEnhancedEffect.js" was ignored.
+node_modules/@mui/material/utils/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useForkRef.js" was ignored.
+node_modules/@mui/material/List/ListContext.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/List/ListContext.js" was ignored.
+node_modules/@mui/material/ListItemSecondaryAction/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemSecondaryAction/index.js" was ignored.
+node_modules/@mui/material/Modal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/index.js" was ignored.
 node_modules/@mui/material/Backdrop/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/index.js" was ignored.
+node_modules/@mui/material/Fade/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/index.js" was ignored.
+node_modules/@mui/material/styles/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useTheme.js" was ignored.
+node_modules/@mui/material/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/index.js" was ignored.
+node_modules/@mui/material/styles/defaultTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/defaultTheme.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
+node_modules/@mui/material/Paper/Paper.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/Paper.js" was ignored.
+node_modules/@mui/material/ButtonBase/ButtonBase.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ButtonBase/ButtonBase.js" was ignored.
+node_modules/@mui/material/utils/createSvgIcon.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/createSvgIcon.js" was ignored.
+node_modules/@mui/base/utils/ClassNameConfigurator.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/ClassNameConfigurator.js" was ignored.
+node_modules/@mui/base/utils/useRootElementName.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useRootElementName.js" was ignored.
+node_modules/@mui/base/utils/useSlotProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useSlotProps.js" was ignored.
 node_modules/@mui/utils/useId/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useId/useId.js" was ignored.
+node_modules/@mui/material/ListItemSecondaryAction/ListItemSecondaryAction.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ListItemSecondaryAction/ListItemSecondaryAction.js" was ignored.
 node_modules/@mui/base/unstable_useModal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/index.js" was ignored.
 node_modules/@mui/material/Modal/Modal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Modal/Modal.js" was ignored.
-node_modules/@mui/material/Paper/Paper.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Paper/Paper.js" was ignored.
-node_modules/@mui/material/Fade/Fade.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/Fade.js" was ignored.
-node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
-node_modules/@mui/material/styles/defaultTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/defaultTheme.js" was ignored.
 node_modules/@mui/material/Backdrop/Backdrop.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Backdrop/Backdrop.js" was ignored.
-node_modules/@mui/base/unstable_useModal/useModal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/useModal.js" was ignored.
-node_modules/@mui/base/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/index.js" was ignored.
+node_modules/@mui/material/Fade/Fade.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/Fade/Fade.js" was ignored.
+node_modules/@mui/material/utils/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useId.js" was ignored.
+node_modules/@mui/material/utils/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useEventCallback.js" was ignored.
+node_modules/@mui/material/utils/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useControlled.js" was ignored.
+node_modules/@mui/material/utils/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useIsFocusVisible.js" was ignored.
 node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
-node_modules/@mui/material/utils/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useForkRef.js" was ignored.
 node_modules/@mui/styled-engine/index.js (8:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/index.js" was ignored.
+node_modules/@mui/material/ButtonBase/TouchRipple.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ButtonBase/TouchRipple.js" was ignored.
+node_modules/@mui/material/SvgIcon/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/SvgIcon/index.js" was ignored.
+node_modules/@mui/utils/useForkRef/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useForkRef/useForkRef.js" was ignored.
+node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js" was ignored.
+node_modules/@mui/base/unstable_useModal/useModal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/unstable_useModal/useModal.js" was ignored.
 node_modules/@mui/system/esm/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/index.js" was ignored.
-node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
 node_modules/@mui/system/esm/createBox.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox.js" was ignored.
+node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
 node_modules/@mui/system/esm/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme.js" was ignored.
 node_modules/@mui/system/esm/useThemeWithoutDefault.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault.js" was ignored.
 node_modules/@mui/system/esm/ThemeProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/index.js" was ignored.
 node_modules/@mui/system/esm/Container/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/index.js" was ignored.
+node_modules/@mui/system/esm/Unstable_Grid/Grid.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/Grid.js" was ignored.
 node_modules/@mui/system/esm/Unstable_Grid/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/index.js" was ignored.
 node_modules/@mui/system/esm/Stack/Stack.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/Stack.js" was ignored.
-node_modules/@mui/system/esm/Unstable_Grid/Grid.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/Grid.js" was ignored.
 node_modules/@mui/system/esm/Stack/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/index.js" was ignored.
-node_modules/@mui/base/utils/ClassNameConfigurator.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/ClassNameConfigurator.js" was ignored.
-node_modules/@mui/base/utils/useRootElementName.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useRootElementName.js" was ignored.
-node_modules/@mui/base/utils/useSlotProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/utils/useSlotProps.js" was ignored.
-node_modules/@mui/base/Portal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/index.js" was ignored.
 node_modules/@mui/styled-engine/StyledEngineProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/index.js" was ignored.
 node_modules/@mui/styled-engine/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/index.js" was ignored.
-node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/material/ButtonBase/Ripple.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/ButtonBase/Ripple.js" was ignored.
+node_modules/@mui/material/SvgIcon/SvgIcon.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/SvgIcon/SvgIcon.js" was ignored.
+node_modules/@mui/base/Portal/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/index.js" was ignored.
 node_modules/@mui/system/esm/Box/Box.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
 node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useMediaQuery/useMediaQuery.js" was ignored.
 node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
 node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
 node_modules/@mui/system/esm/Container/Container.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
-node_modules/@mui/base/Portal/Portal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/Portal.js" was ignored.
-node_modules/@mui/base/FocusTrap/FocusTrap.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/FocusTrap/FocusTrap.js" was ignored.
-node_modules/@mui/utils/useForkRef/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useForkRef/useForkRef.js" was ignored.
-node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js" was ignored.
-node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js" was ignored.
-node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEnhancedEffect/useEnhancedEffect.js" was ignored.
 node_modules/@mui/utils/useEventCallback/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useEventCallback/useEventCallback.js" was ignored.
 node_modules/@mui/utils/useControlled/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useControlled/useControlled.js" was ignored.
+node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js" was ignored.
+node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js" was ignored.
+node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js" was ignored.
 node_modules/@mui/utils/useLazyRef/useLazyRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useLazyRef/useLazyRef.js" was ignored.
 node_modules/@mui/utils/useTimeout/useTimeout.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useTimeout/useTimeout.js" was ignored.
 node_modules/@mui/utils/useOnMount/useOnMount.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useOnMount/useOnMount.js" was ignored.
-node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/useIsFocusVisible/useIsFocusVisible.js" was ignored.
 node_modules/@mui/utils/usePreviousProps/usePreviousProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/usePreviousProps/usePreviousProps.js" was ignored.
-src/Dialog/Dialog.stories.jsx (4:9) Error when using sourcemap for reporting an error: Can't resolve original location of error.
-✓ 916 modules transformed.
-✓ built in 2.80s
-"Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
-file: /Users/persoonlijk/learnstorybook-design-system/src/Dialog/Dialog.stories.jsx:4:9
-2: import styled from "@emotion/styled";
-3: import React from "react";
-4: import { Dialog } from "./Dialog";
-            ^
-5: export default {
-6:   title: "Components/Dialog",
-=> Failed to build the preview
-RollupError: "Dialog" is not exported by "src/Dialog/Dialog.jsx", imported by "src/Dialog/Dialog.stories.jsx".
-    at error (file://./node_modules/rollup/dist/es/shared/node-entry.js:2287:30)
-    at Module.error (file://./node_modules/rollup/dist/es/shared/node-entry.js:13745:16)
-    at Module.traceVariable (file://./node_modules/rollup/dist/es/shared/node-entry.js:14175:29)
-    at ModuleScope.findVariable (file://./node_modules/rollup/dist/es/shared/node-entry.js:12615:39)
-    at Identifier.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:8319:40)
-    at Property.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5892:23)
-    at ObjectExpression.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
-    at ExportDefaultDeclaration.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5892:23)
-    at Program.bind (file://./node_modules/rollup/dist/es/shared/node-entry.js:5888:28)
-    at Module.bindReferences (file://./node_modules/rollup/dist/es/shared/node-entry.js:13741:18)
-    at Graph.sortModules (file://./node_modules/rollup/dist/es/shared/node-entry.js:25853:20)
-    at Graph.build (file://./node_modules/rollup/dist/es/shared/node-entry.js:25737:14)
-    at async file://./node_modules/rollup/dist/es/shared/node-entry.js:26706:13
-    at async catchUnfinishedHookActions (file://./node_modules/rollup/dist/es/shared/node-entry.js:25910:16)
-    at async rollupInternal (file://./node_modules/rollup/dist/es/shared/node-entry.js:26701:5)
-    at async build (file://./node_modules/vite/dist/node/chunks/dep-52909643.js:48079:18)
-    at async build (./node_modules/@storybook/builder-vite/dist/index.js:159:11314)
-    at async Promise.all (index 0)
-    at async Module.build2 (./node_modules/@storybook/builder-vite/dist/index.js:159:13633)
-    at async Promise.all (index 0)
-    at async buildStaticStandalone (./node_modules/@storybook/core-server/dist/index.js:61:2295)
-    at async withTelemetry (./node_modules/@storybook/core-server/dist/index.js:65:3948)
-    at async build (./node_modules/@storybook/cli/dist/generate.js:514:1059)
-    at async Command.<anonymous> (./node_modules/@storybook/cli/dist/generate.js:530:125)
-error Command failed with exit code 1.
-info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+node_modules/@mui/base/FocusTrap/FocusTrap.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/FocusTrap/FocusTrap.js" was ignored.
+node_modules/@mui/base/Portal/Portal.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/base/Portal/Portal.js" was ignored.
+node_modules/telejson/dist/index.mjs (1413:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+node_modules/telejson/dist/index.mjs (1416:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 1007 modules transformed.
+rendering chunks...
+computing gzip size...
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/youtube-9f26eb0b.svg                                                   0.72 kB │ gzip:   0.36 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/tutorials-adff6365.svg                                                 1.27 kB │ gzip:   0.63 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/discord-f7d1b78c.svg                                                   2.41 kB │ gzip:   1.15 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/github-cdfc3270.svg                                                    2.72 kB │ gzip:   1.28 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/context-c612d889.png                                                   6.12 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/styling-c83082e0.png                                                   7.24 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/iframe.html                                                                  12.76 kB │ gzip:   3.59 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/docs-5b0c7100.png                                                     27.88 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/share-b59d6c77.png                                                    40.77 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/accessibility-cd6d60f7.png                                            42.34 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/figma-plugin-b0a5ad2d.png                                             44.25 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/theming-b6e819c3.png                                                  44.37 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/testing-6a59f681.png                                                  49.31 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/addon-library-bc7ba705.png                                           467.37 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Header-a6911580.css                                                    0.51 kB │ gzip:   0.31 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Button-bc1a867b.css                                                    0.52 kB │ gzip:   0.29 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Page.stories-ece1482a.css                                              0.93 kB │ gzip:   0.39 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/emotion-use-insertion-effect-with-fallbacks.browser.esm-929668a7.js    0.18 kB │ gzip:   0.16 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-9eea8125.js                                                      0.21 kB │ gzip:   0.17 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/WithTooltip-V3YHNWJZ-05f1bef0.js                                       0.48 kB │ gzip:   0.27 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/syntaxhighlighter-V7JZZA35-00dd91aa.js                                 0.49 kB │ gzip:   0.29 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-a1cf9e47.js                                                      0.49 kB │ gzip:   0.31 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/react-18-988a5df2.js                                                   0.55 kB │ gzip:   0.34 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-a2564afb.js                                                    0.57 kB │ gzip:   0.38 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-2151c4fe.js                                                    0.60 kB │ gzip:   0.36 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-73104b77.js                                                    0.64 kB │ gzip:   0.44 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/_commonjsHelpers-de833af9.js                                           0.69 kB │ gzip:   0.38 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-356e4a49.js                                                      0.77 kB │ gzip:   0.47 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-8d47fad6.js                                                      0.80 kB │ gzip:   0.52 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/styles-009419ae.js                                                     0.85 kB │ gzip:   0.52 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-0ef86afd.js                                                    0.86 kB │ gzip:   0.55 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/jsx-runtime-29545a09.js                                                0.97 kB │ gzip:   0.60 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Header.stories-682c4e07.js                                             1.00 kB │ gzip:   0.51 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/entry-preview-1f5c28fc.js                                              1.15 kB │ gzip:   0.67 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/animation-efab914b.js                                                  1.21 kB │ gzip:   0.40 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/emotion-react.browser.esm-562db740.js                                  1.24 kB │ gzip:   0.70 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/DocsRenderer-NNNQARDV-ee4169ec.js                                      1.36 kB │ gzip:   0.72 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Button-ba3ee8e2.js                                                     1.46 kB │ gzip:   0.68 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Button.stories-ab8f82d1.js                                             1.66 kB │ gzip:   0.64 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Header-3fa6f99f.js                                                     1.68 kB │ gzip:   0.82 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-77a968f3.js                                                    2.53 kB │ gzip:   1.29 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/StoryLinkWrapper-05a0d9a8.js                                           2.54 kB │ gzip:   1.26 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-11d98b33.js                                                      2.59 kB │ gzip:   1.26 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-errors-dde4324f.js                                             2.80 kB │ gzip:   1.29 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-30b54f76.js                                                    3.21 kB │ gzip:   1.37 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Icon.stories-d696c2c9.js                                               3.23 kB │ gzip:   1.26 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Badge.stories-5c23b250.js                                              4.92 kB │ gzip:   1.59 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Card.stories-6771a52b.js                                               4.99 kB │ gzip:   1.85 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Avatar.stories-b52a0c8d.js                                             6.94 kB │ gzip:   2.25 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-76fb7be0.js                                                      7.16 kB │ gzip:   2.91 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Link.stories-d1279027.js                                               7.32 kB │ gzip:   2.30 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-da31036b.js                                                    7.62 kB │ gzip:   1.56 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/emotion-styled-base.browser.esm-c32a4d7c.js                            8.20 kB │ gzip:   3.89 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-c56bf6ac.js                                                    8.28 kB │ gzip:   3.16 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/iframe-ac4ae39e.js                                                    10.05 kB │ gzip:   2.19 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/polished.esm-b6220ab2.js                                              10.86 kB │ gzip:   3.87 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Configure-84826130.js                                                 17.06 kB │ gzip:   7.75 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/emotion-react-jsx-runtime.browser.esm-2080dcf4.js                     17.50 kB │ gzip:   7.07 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Button.stories-979cf550.js                                            22.52 kB │ gzip:   3.90 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Button.stories-8c78a694.js                                            22.53 kB │ gzip:   3.91 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Color-6VNJS4EI-62db749b.js                                            31.09 kB │ gzip:  11.66 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Typography-58bddcb0.js                                                41.29 kB │ gzip:  14.91 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Dialog.stories-b053a79c.js                                            47.38 kB │ gzip:  15.29 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/preview-24993a6f.js                                                   72.11 kB │ gzip:  24.36 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-8fd8397b.js                                                     78.40 kB │ gzip:  23.41 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-d3ea75b5.js                                                    134.07 kB │ gzip:  43.20 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Icon-d0a8ff7d.js                                                     134.09 kB │ gzip:  47.97 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/entry-preview-docs-ffa139cb.js                                       212.42 kB │ gzip:  65.86 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/index-0c453c2f.js                                                    527.87 kB │ gzip: 171.66 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/Page.stories-3d255359.js                                             563.23 kB │ gzip: 149.12 kB
+../../../var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh/assets/formatter-SWP5E3XI-6eb87d01.js                                       601.68 kB │ gzip: 185.08 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.68s
+info => Preview built (5.11 s)
+info => Output directory: /var/folders/3_/3y84r1fj36gdn05mq4c_z9s40000gp/T/chromatic--39503-odRQw2DyERKh
+Done in 7.42s.
